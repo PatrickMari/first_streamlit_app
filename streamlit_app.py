@@ -60,8 +60,8 @@ if streamlit.button('Get Fruit Load List'):
   my_data_rows = my_fruit_load_list()
   streamlit.dataframe(my_data_rows)
 
-my_cur = my_cnx.cursor()
-my_data_rows = my_cur.fetchall()
+#my_cur = my_cnx.cursor()
+#my_data_rows = my_cur.fetchall()
 
 #######################################################
 #allow users to add
